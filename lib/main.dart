@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: TextStyle(
                     color: Colors
                         .red.shade900) //Theme.of(context).textTheme.titleLarge,
-            ),
+                ),
             const SizedBox(height: 10),
             Text(
               myAge.isNotEmpty ? myAge : 'Please Select Your Date of Birth',
