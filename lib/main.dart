@@ -34,7 +34,10 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Age Calculator'),
+        title: const Text(
+          'Age Calculator',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.greenAccent,
         centerTitle: true,
         systemOverlayStyle: SystemUiOverlayStyle(
@@ -49,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: TextStyle(
                     color: Colors
                         .red.shade900) //Theme.of(context).textTheme.titleLarge,
-            ),
+                ),
             const SizedBox(height: 10),
             Text(
               myAge.isNotEmpty ? myAge : 'Please Select Your Date of Birth',
