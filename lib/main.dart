@@ -34,7 +34,10 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Age Calculator'),
+        title: const Text(
+          'Age Calculator',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.greenAccent,
         centerTitle: true,
         systemOverlayStyle: SystemUiOverlayStyle(
